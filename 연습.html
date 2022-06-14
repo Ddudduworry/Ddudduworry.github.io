@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        font-family: "Do Hyeon";
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+    header{
+       text-align: center;
+       padding-right: 10px;
+       height: 100px;
+    }
+    #page{
+        margin: auto;
+        width: 1024px;
+    }
+    #logo{
+        text-align: center;
+        margin-top:-20px;
+        margin: 20px;
+        margin-left: 150px;
+        font-size: 30px;
+        color:#98f1ff;
+        /*border-bottom: dotted 2px gray;*/
+    }
+    #top{
+        float: right;
+        margin-top: -30px;
+        color: #43595c;
+    }
+    nav{
+        width: 100%;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+    nav li:hover{
+        background: rgb(238, 168, 204);
+        background: -webkit-radial-gradient(left top, rgb(238, 168, 204),rgb(239,229,157));
+        background: -moz-linear-gradient(right bottom, rgb(238, 168, 204),rgb(239,229,157));
+        background: -o-linear-gradient(right bottom,rgb(238, 168, 204),rgb(239,229,157));
+        color: white;
+    }
+    nav li{
+        display:inline;
+        margin: 20px 30px;
+        font-size: 19px;
+        }
+    section{
+        float: left;
+        margin: 10px;
+        padding-left: 50px;
+    }
+    .clear{
+        clear: both;
+    }
+    aside{
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    aside li{
+        margin-bottom: 60px;
+        list-style-type: none;
+        text-align: right;
+    }
+    footer{
+        width: 95%;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #address{
+     float: left;
+     margin-top: 10px;
+     margin-left: 10px;
+    }
+    #customer{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color:rgba(255,255,255,0.4);
+    font-style: italic;
+    }
+    hr{
+        color: rgb(118, 26, 118);
+    }
+    #topp{
+        text-decoration: none;
+        float: center;
+        color: rgba(128, 128, 128, 0.41);
+    }
+    #clear{
+        text-decoration: none;
+        color:#b2edf7;
+        text-shadow: 5px 5px 3px  rgb(103, 147, 165);
+        animation-name: textColorAnimation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes textColorAnimation{
+        0%{
+            color: rgb(238, 168, 204);
+        }
+        40%{
+            color:rgb(239,229,157);
+        }
+        100%{
+            color: rgb(162,219,238);
+        }
+    }
+    #clearr{
+        text-decoration: none;
+        color: black;
+    }
+</style>
+<body id="page">
+    <header>
+        <div id="top">
+           <h4> logn | sign up | site map</h4>
+        </div>
+        <div id="logo">
+            <a id="clear" href="연습.html"><h1>Oh My Girl!</h1></a>
+        </div>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><img src="images/토끼아이콘.png">INTRODUCE</li>
+            <a href="letter.html" id="clearr"><li><img src="images/토끼아이콘.png">SEND LETTER</li></a>
+            <a href="listen.html" id="clearr"><li><img src="images/토끼아이콘.png">LISTEN OMGIRL'S SONG</li></a>
+            <a href="pic.html" id="clearr"><li><img src="images/토끼아이콘.png">PICTURES</li></a>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <iframe src="./images/단체 사진.jfif" width="600px" name=left height="700px" frameborder="0" ></iframe>
+        <iframe src="finalmenu.html" width="300px" name=right height="700px"frameborder="0"></iframe>
+    </section>
+    <aside>
+    </aside>
+<div class="clear"></div>
+    <footer>
+        <div id="customer">
+            <a id="topp" href="#top">
+                맨위로<br>
+            </a>
+            회장: 김유정 | 문의 : 123-45-6789<br>
+            아큐브회사 1588-1234
+        </div>
+    </footer>
+</body>
+</html>
